@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="~/autoSuggest.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-3"><input type="text" name="Product" id="Product" class="validate[required] form-control  col-sm-4" placeholder="Enter Product Name" /></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <ul id="drugName">
+                <li id="" onclick="getMedicineDetails()"></li>
+                <!-- Dynamic List of medicines -->
+            </ul>
+        </div>
+        <div class="col-sm-3">
+            <ul id="drugMechanism">
+                <li id="" onclick="getMechanisms()"></li>
+                <!-- Dynamic List of mechanisms -->
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div id="medicineDetails" class="col-sm-12"></div>
+        <div id="mechanismDetails" class="col-sm-12"></div>
+    </div>
+</body>
+</html>

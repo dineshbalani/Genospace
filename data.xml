@@ -1,0 +1,47 @@
+ <Drug namemain="Temozolomide" id="108485">
+    <NamesCode>
+      <Name>CCRG-81045</Name>
+      <Name>M&amp;B-39831</Name>
+      <Name>NSC-362856</Name>
+      <Name>Sch-52365</Name>
+    </NamesCode>
+    <NamesBrand>
+      <Name>Temodal</Name>
+      <Name>Temodar</Name>
+    </NamesBrand>
+    <NamesGeneric>
+      <Name>Temozolomide</Name>
+    </NamesGeneric>
+    <MechanismsMolecular>
+      <Mechanism id="4076">DNA Topoisomerase II alpha Inhibitors</Mechanism>
+      <Mechanism id="1895">DNA Alkylating Drugs</Mechanism>
+      <Mechanism id="1895">TEP II Inhibitors</Mechanism>
+    </MechanismsMolecular>
+    <DevelopmentStatusSummary>
+      <Row>
+        <Condition id="1325">Neurologic cancer</Condition>
+        <PhaseHighest sort="18" id="6">Launched</PhaseHighest>
+        <ConditionInActiveDevelopment>No</ConditionInActiveDevelopment>
+        <Year>2010</Year>
+        <Organizations>
+          <Organization id="424">Merck &amp; Co.</Organization>
+        </Organizations>
+        <AdministrationRoutes>
+          <AdministrationRoute id="48">parenteral</AdministrationRoute>
+        </AdministrationRoutes>
+      </Row>
+      <Row>
+        <Condition id="582">Astrocytoma</Condition>
+        <PhaseHighest sort="18" id="6">Launched</PhaseHighest>
+        <ConditionInActiveDevelopment>No</ConditionInActiveDevelopment>
+        <Year>1999</Year>
+        <Organizations>
+          <Organization id="424">Merck &amp; Co.</Organization>
+        </Organizations>
+        <AdministrationRoutes>
+          <AdministrationRoute id="3">intravenous</AdministrationRoute>
+          <AdministrationRoute id="1">oral</AdministrationRoute>
+        </AdministrationRoutes>
+    </Row>
+    </DevelopmentStatusSummary>
+</Drug>
